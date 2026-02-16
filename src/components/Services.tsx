@@ -3,7 +3,7 @@ import { Droplets, Flame, Bath } from "lucide-react";
 const services = [
   {
     icon: Droplets,
-    title: "TESTTESTTESTTESTLeak Repairs",
+    title: "Leak Repairs",
     description: "Fast detection and repair of all types of leaks — taps, pipes, toilets, and hidden water damage. We stop the drip before it becomes a flood.",
     features: ["Emergency call-outs", "Pipe replacement", "Water damage prevention"],
   },
