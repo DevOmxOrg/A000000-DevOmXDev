@@ -17,8 +17,10 @@ const Hero = () => {
             Serving Crawley &amp; Surrounding Areas
           </div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-primary-foreground leading-[1.1]">
-            Fast, Reliable<br />
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-primary-foreground leading-[1.1]">Om Nayee's 
+Fast, Reliable
+Plumbing Services
+You Can Trust<br />
             <span className="text-gradient">Plumbing Services</span><br />
             You Can Trust
           </h1>
@@ -28,17 +30,15 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
-            <a
-              href="tel:+441234567890"
-              className="inline-flex items-center justify-center gap-3 rounded-lg bg-accent px-8 py-4 text-lg font-bold text-accent-foreground shadow-lg hover:brightness-110 transition-all animate-pulse-glow"
-            >
+            <a href="tel:+441234567890" className="inline-flex items-center justify-center gap-3 rounded-lg bg-accent px-8 py-4 text-lg font-bold text-accent-foreground shadow-lg hover:brightness-110 transition-all animate-pulse-glow">
+
               <Phone className="h-5 w-5" />
               Call Now — Free Quote
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center rounded-lg border-2 border-primary-foreground/30 px-8 py-4 text-lg font-semibold text-primary-foreground hover:bg-primary-foreground/10 transition-all"
-            >
+              className="inline-flex items-center justify-center rounded-lg border-2 border-primary-foreground/30 px-8 py-4 text-lg font-semibold text-primary-foreground hover:bg-primary-foreground/10 transition-all">
+
               Request a Callback
             </a>
           </div>
@@ -50,8 +50,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Hero;
