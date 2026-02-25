@@ -17,12 +17,8 @@ const Hero = () => {
             Serving Crawley &amp; Surrounding Areas
           </div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-primary-foreground leading-[1.1]">Dave's  Fast, Reliable 
-Plumbing Services
-You Can Trust
-
-
-            <br />
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-primary-foreground leading-[1.1]">
+            Dave's Fast, Reliable<br />
             <span className="text-gradient">Plumbing Services</span><br />
             You Can Trust
           </h1>
@@ -50,8 +46,8 @@ You Can Trust
           </div>
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 };
 
 export default Hero;
