@@ -17,8 +17,9 @@ const Hero = () => {
             Serving Crawley &amp; Surrounding Areas
           </div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-primary-foreground leading-[1.1]">
-            RapidFlow's Fast, Reliable<br />
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-primary-foreground leading-[1.1] md:text-5xl">RapidFlow's Fast,Reliable
+Plumbing Services
+You Can Trust<br />
             <span className="text-gradient">Plumbing Services</span><br />
             You Can Trust
           </h1>
@@ -46,8 +47,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
 };
 
 export default Hero;
